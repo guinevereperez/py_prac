@@ -1,0 +1,6 @@
+#while loop: index value practice using strings
+greeting = 'What up butter cup?'
+index = 0
+while index <len(greeting):
+    print(greeting[index])
+    index += 1 #increment string elements by one
