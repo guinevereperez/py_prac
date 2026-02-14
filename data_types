@@ -1,0 +1,31 @@
+# This code demonstrates various data types in Python and prints their types.
+
+nidia = 23.3
+print(type(nidia))
+
+guin = 7
+print(type(guin))
+
+our_love = "nidia and guin"
+print(type(our_love))
+
+is_nidia_beautiful = True
+print(type(is_nidia_beautiful))
+
+guin_doesnt_love_nidia = False
+print(type(guin_doesnt_love_nidia))
+
+guinevere = 142 + 1j
+print(type(guinevere))
+
+nidia_nickname = ('nidi', 'shroomz', 'owlie')
+print(type(nidia_nickname))
+
+guin_nickname = ['guiny', 'turtle_pie', 'boo']
+print(type(guin_nickname))
+
+example_dict = {'nidia': 'beautiful', 'guin': 'smart'}
+print(type(example_dict))
+
+example_set = {'nidia', 'guin', 'love'}
+print(type(example_set))
