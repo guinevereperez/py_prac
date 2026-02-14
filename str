@@ -1,0 +1,56 @@
+#examples of different string operations
+
+#single line string
+my_string = "Hello, Dolly!"
+print(my_string)  # Output: Hello, Dolly!
+
+#multiline string
+multiline_string = """This is a multiline string.
+It can span multiple lines."""
+print(multiline_string)
+
+# String concatenation
+greeting = "Hello"  + ", " + "World!"
+print(greeting)  # Output: Hello, World!
+
+# String indexing
+first_character = my_string[0]
+print(first_character)  # Output: H
+
+# String slicing
+substring = my_string[0:5]
+print(substring)  # Output: Hello
+
+# String length
+length_of_string = len(my_string)
+print(length_of_string)  # Output: 13
+
+# String methods
+upper_string = my_string.upper()
+print(upper_string)  # Output: HELLO, DOLLY!
+lower_string = my_string.lower()
+print(lower_string)  # Output: hello, dolly!
+
+# String replacement
+replaced_string = my_string.replace("Dolly", "Nidia")
+print(replaced_string)  # Output: Hello, Nidia!
+
+# String splitting
+split_string = my_string.split(", ")
+print(split_string)  # Output: ['Hello', 'Dolly!']
+
+# String formatting
+name = "Nidia"
+age = 40
+formatted_string = f"My name is {name} and I am {age} years old."
+print(formatted_string)  # Output: My name is Nidia and I am 40 years old.
+
+# String concatenation with variables
+first_name = "Guin"
+last_name = "Negrete"
+full_name = first_name + " " + last_name
+print(full_name)  # Output: Guin Negrete
+
+# String repetition
+repeated_string = "Yo! " * 3
+print(repeated_string)  # Output: Yo! Yo! Yo!
