@@ -1,0 +1,21 @@
+# Getting user input
+print("Who do you love?")
+name = input()
+print("I love "+ name)
+
+#creating a function
+def say_hello():
+    return "Hello there!"
+
+# With parameters
+def say_hello(you):
+    return "Hello " +  you + "!"
+
+# Calling the function
+print(say_hello(name))
+
+# With multiple parameters
+time_of_day = input("What time of day is it? (morning, afternoon, evening) ")   
+def greet(name, time_of_day):
+    return "Good " + time_of_day + ", " + name + "!"
+print(greet(name, time_of_day))
